@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\jorge\source\repos\Problem 37\Source.cpp(47,47): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\jorge\source\repos\Problem 37\Source.cpp(52,52): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+  Problem 37.vcxproj -> C:\Users\jorge\source\repos\Problem 37\x64\Debug\Problem 37.exe

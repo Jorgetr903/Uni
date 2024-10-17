@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\jorge\source\repos\Problem 46\Source.cpp(56,38): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\jorge\source\repos\Problem 46\Source.cpp(41): warning C4715: 'resolver': no todas las rutas de acceso de control devuelven un valor
+  Problem 46.vcxproj -> C:\Users\jorge\source\repos\Problem 46\x64\Debug\Problem 46.exe

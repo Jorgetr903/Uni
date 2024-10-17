@@ -1,0 +1,27 @@
+﻿  Source.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xhash(936,35): error C2675: '++' unario: '_Iter' no define este operador o una conversión como tipo aceptable para el operador predefinido
+          with
+          [
+              _Iter=std::string
+          ]
+C:\Users\jorge\source\repos\ED\ED59.2\Source.cpp(22): message : Vea la referencia a la creación de una instancia de la función plantilla "void std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::insert<std::string>(_Iter,_Iter)" que se está compilando
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::set<std::string,std::less<std::string>,std::allocator<std::string>>,
+              _Hasher=std::hash<std::string>,
+              _Keyeq=std::equal_to<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::set<std::string,std::less<std::string>,std::allocator<std::string>>>>,
+              _Iter=std::string
+          ]
+C:\Users\jorge\source\repos\ED\ED59.2\Source.cpp(22): message : Vea la referencia a la creación de una instancia de la función plantilla "void std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::insert<std::string>(_Iter,_Iter)" que se está compilando
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::set<std::string,std::less<std::string>,std::allocator<std::string>>,
+              _Hasher=std::hash<std::string>,
+              _Keyeq=std::equal_to<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::set<std::string,std::less<std::string>,std::allocator<std::string>>>>,
+              _Iter=std::string
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xhash(937,21): error C2100: direccionamiento indirecto no válido

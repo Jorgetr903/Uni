@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\jorge\source\repos\01\Source.cpp(14,26): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\jorge\source\repos\01\Source.cpp(22,23): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\jorge\source\repos\01\Source.cpp(59,39): warning C4101: 'ia': variable local sin referencia
+  01.vcxproj -> C:\Users\jorge\source\repos\01\x64\Debug\01.exe

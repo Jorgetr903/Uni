@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\jorge\source\repos\ED\04\polinomio.h(41,1): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\jorge\source\repos\ED\04\polinomio.h(56,1): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\jorge\source\repos\ED\04\polinomio.h(69,1): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+  04.vcxproj -> C:\Users\jorge\source\repos\ED\04\x64\Debug\04.exe

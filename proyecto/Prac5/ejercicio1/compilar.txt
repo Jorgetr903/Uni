@@ -1,0 +1,15 @@
+gcc -o 2 2.c
+gcc -pthread -o 2 2.c
+gcc -pthread -g -o 2 2.c
+
+./2
+gdb ./2
+
+(gdb) run -> iniciar ejecución
+(gdb) break fun -> establecer punto interrupción en una fución específica
+(gdb) break main.c:10 -> en una línea específica
+(gdb) continue -> ejecutar hasta el siguiente punto interrupción
+(gdb) step -> paso a paso (entrando en funciones)
+(gdb) next -> paso a paso (sin entrar en funciones)
+(gdb) print variable_name
+(gdb) quit -> salir

@@ -1,0 +1,17 @@
+﻿  Source.cpp
+C:\Users\jorge\source\repos\MAR\MAR31\PriorityQueue.h(55,1): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\jorge\source\repos\MAR\MAR31\PriorityQueue.h(53): message : al compilar la función del miembro clase plantilla "void PriorityQueue<int,std::greater<int>>::push(const T &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\jorge\source\repos\MAR\MAR31\Source.cpp(22): message : Vea la referencia a la creación de una instancia de la función plantilla "void PriorityQueue<int,std::greater<int>>::push(const T &)" que se está compilando
+          with
+          [
+              T=int
+          ]
+C:\Users\jorge\source\repos\MAR\MAR31\Source.cpp(17): message : Vea la referencia a la creación de una instancia de clase plantilla "PriorityQueue<int,std::greater<int>>" que se está compilando
+C:\Users\jorge\source\repos\MAR\MAR31\PriorityQueue.h(59,1): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\jorge\source\repos\MAR\MAR31\PriorityQueue.h(59): message : al compilar la función del miembro clase plantilla "int PriorityQueue<int,std::greater<int>>::size(void) const"
+C:\Users\jorge\source\repos\MAR\MAR31\PriorityQueue.h(117): message : Vea la referencia a la creación de una instancia de la función plantilla "int PriorityQueue<int,std::greater<int>>::size(void) const" que se está compilando
+  MAR31.vcxproj -> C:\Users\jorge\source\repos\MAR\MAR31\x64\Debug\MAR31.exe

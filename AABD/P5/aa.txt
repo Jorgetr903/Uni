@@ -1,0 +1,26 @@
+def cost(theta1, theta2, X, y, lambda_):
+
+    J = 0
+    m = X.shape[0]
+
+    for i in range(m):
+
+        a1 = np.insert(X[i], 0, 1) # add bias unit
+        z2 = np.dot(theta1, a1)
+        a2 = np.insert(sigmoid(z2), 0, 1) #add bias unit
+        z3 = np.dot(theta2, a2)
+        h= sigmoid(z3)
+
+        # One-hot encoding
+        y_onehot = np.zeros((10,))
+        y_onehot[y[i]] = 1
+
+        aux_J = np.sum(y_onehot * np.log(h) + (1 - y_onehot) * np.log(1 - h))
+        J += aux_J
+
+    # Regularización
+    reg_term = (lambda_ / (2 * m)) * (np.sum(np.square(theta1[:,1:])) + np.sum(np.square(theta2[:,1:])))
+
+    J = -J/m + reg_term
+
+    return J

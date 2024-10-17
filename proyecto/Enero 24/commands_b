@@ -1,0 +1,3 @@
+echo -n hello; sleep 1; echo " goodbye"
+ls -l
+echo "done" ; false

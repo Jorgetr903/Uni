@@ -1,0 +1,11 @@
+1.- Copia de ficheros regulares
+
+2.- Crear enlaces simbólicos
+
+3.- Desplazamiento del marcador de posición en ficheros
+
+4.- Recorrido de directorios
+
+5.- Administración de ficheros y directorios
+
+6.- Permisos y modos de apertura

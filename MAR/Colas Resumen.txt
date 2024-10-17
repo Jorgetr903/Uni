@@ -1,0 +1,51 @@
+#include <iostream>
+using namespace std;
+
+// CREAR COLAS CON LA LIBRERÍA
+
+#include <queue>
+
+// COLA DE MÁXIMOS
+
+priority_queue<int> cola;
+
+// COLA DE MINIMOS
+
+#include <vector>
+priority_queue<int, vector<int>, greater<int>> cola;
+
+// COLA CON OBJETOS
+
+struct persona
+{
+    int id;
+};
+
+struct comparadorPersonas
+{
+    bool operator()(persona const &a, persona const &b)
+    {
+        return a.id < b.id; //cola de maximos
+        return a.id > b.id; //cola de minimos
+    }
+};
+
+priority_queue<persona, vector<persona>, comparadorPersonas> colaP;
+
+int main()
+{
+
+    
+    persona a, b;
+    a.id = 3;
+    b.id = 77;
+
+    colaP.push(a);
+    colaP.push(b);
+
+    cout << colaP.top().id << endl;
+    colaP.pop();
+    cout << colaP.top().id << endl;
+
+    return 0;
+}

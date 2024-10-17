@@ -1,0 +1,18 @@
+﻿  Source.cpp
+C:\Users\jorge\source\repos\MAR\MAR23\PriorityQueue.h(59,1): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\jorge\source\repos\MAR\MAR23\PriorityQueue.h(59): message : al compilar la función del miembro clase plantilla "int PriorityQueue<Arista<int>,std::less<T>>::size(void) const"
+          with
+          [
+              T=Arista<int>
+          ]
+C:\Users\jorge\source\repos\MAR\MAR23\PriorityQueue.h(62): message : Vea la referencia a la creación de una instancia de la función plantilla "int PriorityQueue<Arista<int>,std::less<T>>::size(void) const" que se está compilando
+          with
+          [
+              T=Arista<int>
+          ]
+C:\Users\jorge\source\repos\MAR\MAR23\bicicletas.h(20): message : Vea la referencia a la creación de una instancia de clase plantilla "PriorityQueue<Arista<int>,std::less<T>>" que se está compilando
+          with
+          [
+              T=Arista<int>
+          ]
+  MAR23.vcxproj -> C:\Users\jorge\source\repos\MAR\MAR23\x64\Debug\MAR23.exe

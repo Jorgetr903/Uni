@@ -1,0 +1,29 @@
+﻿  Source.cpp
+C:\Users\jorge\source\repos\MAR\MAR8\PriorityQueue.h(59,1): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\jorge\source\repos\MAR\MAR8\PriorityQueue.h(59): message : al compilar la función del miembro clase plantilla "int PriorityQueue<Caja,std::less<T>>::size(void) const"
+          with
+          [
+              T=Caja
+          ]
+C:\Users\jorge\source\repos\MAR\MAR8\Source.cpp(34): message : Vea la referencia a la creación de una instancia de la función plantilla "int PriorityQueue<Caja,std::less<T>>::size(void) const" que se está compilando
+          with
+          [
+              T=Caja
+          ]
+C:\Users\jorge\source\repos\MAR\MAR8\Source.cpp(30): message : Vea la referencia a la creación de una instancia de clase plantilla "PriorityQueue<Caja,std::less<T>>" que se está compilando
+          with
+          [
+              T=Caja
+          ]
+C:\Users\jorge\source\repos\MAR\MAR8\PriorityQueue.h(55,1): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\jorge\source\repos\MAR\MAR8\PriorityQueue.h(53): message : al compilar la función del miembro clase plantilla "void PriorityQueue<Caja,std::less<T>>::push(const T &)"
+          with
+          [
+              T=Caja
+          ]
+C:\Users\jorge\source\repos\MAR\MAR8\Source.cpp(35): message : Vea la referencia a la creación de una instancia de la función plantilla "void PriorityQueue<Caja,std::less<T>>::push(const T &)" que se está compilando
+          with
+          [
+              T=Caja
+          ]
+  MAR8.vcxproj -> C:\Users\jorge\source\repos\MAR\MAR8\x64\Debug\MAR8.exe

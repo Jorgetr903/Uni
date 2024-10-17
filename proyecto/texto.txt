@@ -1,0 +1,22 @@
+PRACTICA 2:
+1.- Analiza el código del programa show_file.c, que lee byte a byte el contenido de un fichero,
+cuyo nombre se pasa como parámetro, y lo muestra por pantalla usando funciones de la biblioteca estándar de “C”.
+2.- Desarrollar dos programas sencillos write_strings.c y read_strings.c que permitan respectivamente escribir y leer
+de un fichero un conjunto de cadenas de caracteres de longitud variable terminadas por '\0'
+3.- se desarrollará un programa C más elaborado que lea y escriba de ficheros regulares tanto de texto, como en formato binario
+PRACTICA 3:
+1.- Copia de ficheros regulares
+2.- Crear enlaces simbólicos
+3.- Desplazamiento del marcador de posición en ficheros
+4.- Recorrido de directorios
+5.- Administración de ficheros y directorios
+6.- Permisos y modos de apertura
+PRACTICA 4:
+1.- Creación de procesos y ejecución de programas
+2.- Creación y paso de parámetros a hilos
+3.- Manejo de señales
+4.- Manejo de ficheros con varios procesos e hilos
+PRACTICA 5:
+Sincronización de hilos de un mismo proceso
+PRACTICA 6:
+Comunicación y sincronización de hilos de distintos procesos utilizando semáforos

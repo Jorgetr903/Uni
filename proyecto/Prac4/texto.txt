@@ -1,0 +1,7 @@
+1.- Creación de procesos y ejecución de programas
+
+2.- Creación y paso de parámetros a hilos
+
+3.- Manejo de señales
+
+4.- Manejo de ficheros con varios procesos e hilos

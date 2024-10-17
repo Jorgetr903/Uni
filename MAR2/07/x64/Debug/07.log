@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\jorge\source\repos\MAR2\07\Source.cpp(43,29): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\jorge\source\repos\MAR2\07\Source.cpp(44,29): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+  07.vcxproj -> C:\Users\jorge\source\repos\MAR2\07\x64\Debug\07.exe

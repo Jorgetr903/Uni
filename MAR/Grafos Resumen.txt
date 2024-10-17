@@ -1,0 +1,132 @@
+#include "IndexPQ.h"
+#include "ConjuntosDisjuntos.h"
+#include "GrafoDirigidoValorado.h"
+#include "GrafoDirigidoValorado.h"
+#include "PriorityQueue.h"
+#include "GrafoValorado.h"
+#include <vector>
+#include <queue>
+#include <limits>
+#include <iostream>
+using namespace std;
+
+int DFS(int n)
+{
+
+    GrafoValorado<int> gr(7);
+
+    vector<bool> visitados(gr.V(), false);
+
+    visitados[n] = true;
+
+    for (auto a : gr.ady(n))
+    {
+        if (!visitados[a.otro(n)])
+        {
+            DFS(a.otro(n));
+        }
+    }
+    return 0;
+}
+
+int BFS(int n)
+{
+
+    GrafoValorado<int> gr(7);
+    queue<int> q;
+
+    vector<bool> visitados(gr.V(), false);
+
+    visitados[n] = true;
+    q.push(n);
+
+    while (!q.empty())
+    {
+        int n = q.front();
+        q.pop();
+        for (auto a : gr.ady(n))
+        {
+            if (!visitados[a.otro(n)])
+            {
+                q.push(a.otro(n));
+            }
+        }
+    }
+    return 0;
+}
+
+// ARBOL DE RECUBRIMIENTO MÍNIMO ALGORITMO KRUSKAL     TIEMPO (A LOG A) Y ESPACIO (A) SIENDO A NUMERO DE ARISTAS
+
+int ARM()
+{
+
+    GrafoValorado<int> gr(7);
+
+    PriorityQueue<Arista<int>> pq(gr.aristas());
+    vector<Arista<int>> ARM;
+    ConjuntosDisjuntos conj(gr.V());
+    int coste = 0;
+
+    while (!pq.empty())
+    {
+        auto a = pq.top();
+        pq.pop();
+        int n1 = a.uno();
+        int n2 = a.otro(n1);
+
+        if (!conj.unidos(n1, n2))
+        {
+            conj.unir(n1, n2);
+            ARM.push_back(a);
+            coste += a.valor();
+            if (ARM.size() == gr.V() - 1)
+            {
+                break;
+            }
+        }
+    }
+
+    return 0;
+}
+
+// ALGORITMO DE DIJKSTRA TIEMPO (A LOG V) Y ESPACIO V SIENDO V NUM VERTICES Y A NUM ARISTAS
+
+void dijkstra()
+{
+    const int INF = numeric_limits<int>::max();
+
+    GrafoDirigidoValorado<int> gr(7);
+    vector<int> dist(gr.V(), INF);
+    IndexPQ<int> pq(gr.V());
+
+    dist[0] = 0;
+    pq.push(0, 0);
+
+    while (!pq.empty())
+    {
+        auto a = pq.top();
+        int n = a.elem;
+
+        for (auto arista : gr.ady(n))
+        {
+            relajar(arista);
+        }
+    }
+}
+
+void relajar(AristaDirigida<int> a)
+{
+    const int INF = numeric_limits<int>::max();
+    GrafoDirigidoValorado<int> gr(7);
+    vector<int> dist(gr.V(), INF);
+    IndexPQ<int> pq(gr.V());
+
+    int n1 = a.from();
+    int n2 = a.to();
+
+    if (dist[n2] > dist[n1] + a.valor())
+    {
+        dist[n2] = dist[n1]+a.valor();
+        pq.update(n2, dist[n2]);
+    }
+}

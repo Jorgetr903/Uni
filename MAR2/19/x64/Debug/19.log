@@ -1,0 +1,10 @@
+﻿  Source.cpp
+C:\Users\jorge\source\repos\MAR2\19\Source.cpp(119,5): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\jorge\source\repos\MAR2\19\Matriz.h(42,1): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\jorge\source\repos\MAR2\19\Matriz.h(42): message : al compilar la función del miembro clase plantilla "int Matriz<int>::numcols(void) const"
+C:\Users\jorge\source\repos\MAR2\19\Source.cpp(26): message : Vea la referencia a la creación de una instancia de la función plantilla "int Matriz<int>::numcols(void) const" que se está compilando
+C:\Users\jorge\source\repos\MAR2\19\Source.cpp(24): message : Vea la referencia a la creación de una instancia de clase plantilla "Matriz<int>" que se está compilando
+C:\Users\jorge\source\repos\MAR2\19\Matriz.h(41,1): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\jorge\source\repos\MAR2\19\Matriz.h(41): message : al compilar la función del miembro clase plantilla "int Matriz<int>::numfils(void) const"
+C:\Users\jorge\source\repos\MAR2\19\Source.cpp(25): message : Vea la referencia a la creación de una instancia de la función plantilla "int Matriz<int>::numfils(void) const" que se está compilando
+  19.vcxproj -> C:\Users\jorge\source\repos\MAR2\19\x64\Debug\19.exe

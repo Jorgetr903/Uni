@@ -1,0 +1,29 @@
+﻿  Source.cpp
+C:\Users\jorge\source\repos\MAR\MAR07\PriorityQueue.h(55,1): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\jorge\source\repos\MAR\MAR07\PriorityQueue.h(53): message : al compilar la función del miembro clase plantilla "void PriorityQueue<enfermo,std::less<T>>::push(const T &)"
+          with
+          [
+              T=enfermo
+          ]
+C:\Users\jorge\source\repos\MAR\MAR07\Source.cpp(37): message : Vea la referencia a la creación de una instancia de la función plantilla "void PriorityQueue<enfermo,std::less<T>>::push(const T &)" que se está compilando
+          with
+          [
+              T=enfermo
+          ]
+C:\Users\jorge\source\repos\MAR\MAR07\Source.cpp(31): message : Vea la referencia a la creación de una instancia de clase plantilla "PriorityQueue<enfermo,std::less<T>>" que se está compilando
+          with
+          [
+              T=enfermo
+          ]
+C:\Users\jorge\source\repos\MAR\MAR07\PriorityQueue.h(59,1): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\jorge\source\repos\MAR\MAR07\PriorityQueue.h(59): message : al compilar la función del miembro clase plantilla "int PriorityQueue<enfermo,std::less<T>>::size(void) const"
+          with
+          [
+              T=enfermo
+          ]
+C:\Users\jorge\source\repos\MAR\MAR07\PriorityQueue.h(117): message : Vea la referencia a la creación de una instancia de la función plantilla "int PriorityQueue<enfermo,std::less<T>>::size(void) const" que se está compilando
+          with
+          [
+              T=enfermo
+          ]
+  MAR07.vcxproj -> C:\Users\jorge\source\repos\MAR\MAR07\x64\Debug\MAR07.exe

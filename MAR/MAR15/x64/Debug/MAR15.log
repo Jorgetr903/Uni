@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\jorge\source\repos\MAR\MAR15\Manchas.h(20,1): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\jorge\source\repos\MAR\MAR15\Source.cpp(18,10): warning C4101: 'mancha': variable local sin referencia
+  MAR15.vcxproj -> C:\Users\jorge\source\repos\MAR\MAR15\x64\Debug\MAR15.exe

@@ -1,0 +1,46 @@
+﻿  Source.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xhash(936,35): error C2675: '++' unario: '_Iter' no define este operador o una conversión como tipo aceptable para el operador predefinido
+          with
+          [
+              _Iter=std::string
+          ]
+C:\Users\jorge\source\repos\ED\ED54.2\Source.cpp(24): message : Vea la referencia a la creación de una instancia de la función plantilla "void std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::insert<std::string>(_Iter,_Iter)" que se está compilando
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>,
+              _Hasher=std::hash<std::string>,
+              _Keyeq=std::equal_to<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>>>,
+              _Iter=std::string
+          ]
+C:\Users\jorge\source\repos\ED\ED54.2\Source.cpp(24): message : Vea la referencia a la creación de una instancia de la función plantilla "void std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::insert<std::string>(_Iter,_Iter)" que se está compilando
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>,
+              _Hasher=std::hash<std::string>,
+              _Keyeq=std::equal_to<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>>>,
+              _Iter=std::string
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xhash(937,21): error C2100: direccionamiento indirecto no válido
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\utility(190,48): warning C4267: 'inicializando': conversión de 'size_t' a '_Ty2'; posible pérdida de datos
+          with
+          [
+              _Ty2=int
+          ]
+C:\Users\jorge\source\repos\ED\ED54.2\Source.cpp(47): message : Vea la referencia a la creación de una instancia de la función plantilla "std::pair<std::string,int>::pair<_Ty1&,unsigned __int64,0>(_Other1,_Other2 &&) noexcept(false)" que se está compilando
+          with
+          [
+              _Ty1=const std::string,
+              _Other1=const std::string &,
+              _Other2=unsigned __int64
+          ]
+C:\Users\jorge\source\repos\ED\ED54.2\Source.cpp(47): message : Vea la referencia a la creación de una instancia de la función plantilla "std::pair<std::string,int>::pair<_Ty1&,unsigned __int64,0>(_Other1,_Other2 &&) noexcept(false)" que se está compilando
+          with
+          [
+              _Ty1=const std::string,
+              _Other1=const std::string &,
+              _Other2=unsigned __int64
+          ]

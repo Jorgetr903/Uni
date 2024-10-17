@@ -1,0 +1,1 @@
+Sincronización de hilos de un mismo proceso
